@@ -43,3 +43,4 @@ const ceVM = new Vue({
 }).$mount()
 
 shadowRoot.appendChild(ceVM.$el)
+

@@ -13,7 +13,8 @@ module.exports = {
     devtools: './src/devtools.js',
     backend: './src/backend.js',
     hook: './src/hook.js',
-    target: './target/index.js'
+    target: './target/index.js',
+    second_target: './second-target/index.js'
   },
   output: {
     path: __dirname + '/build',
