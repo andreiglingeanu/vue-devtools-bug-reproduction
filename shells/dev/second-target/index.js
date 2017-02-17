@@ -1,10 +1,14 @@
 import Vue from 'vue';
 
+Vue.config.devtools = false;
+
 new Vue({
 	name: 'SecondBundleComponent',
 	template: `
 		<div>
 			<my-component />
+
+			<!-- that's the component that receives the duplicated ID -->
 			<my-component />
 		</div>
 	`,

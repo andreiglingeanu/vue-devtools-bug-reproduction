@@ -5,6 +5,9 @@ import Other from './Other.vue'
 import Counter from './Counter.vue'
 import Events from './Events.vue'
 
+// when you make that false - no component will be inspectable in devtools
+Vue.config.devtools = true;
+
 let items = []
 for (var i = 0; i < 100; i++) {
   items.push({ id: i })
