@@ -1,6 +1,7 @@
 import Vue from 'vue';
 
 new Vue({
+	name: 'SecondBundleComponent',
 	template: `
 		<div>
 			<my-component />
